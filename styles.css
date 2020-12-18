@@ -1,0 +1,99 @@
+html,body{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    min-height: 180px;
+    width: 384px;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.main-header{
+
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+}
+
+.main-content{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 0 22px;
+}
+
+.main-icons{
+
+    border-top: 0.5px solid #dadada;
+    height: 50px;
+    width: 100%;
+}
+
+.logo-icon{
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+
+.version{
+
+    color: #444;
+    font-size: 18px;
+}
+
+.flex-container{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+
+.flex{
+
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+}
+
+.flex:hover{
+
+    opacity: 0.4;
+}
+
+.flex .fa{
+
+    font-size: 40px;
+}
+
+.fa-instagram{
+
+    color: RGB(193,53,132);
+    font-size: 40px;
+}
+
+.fa-twitter {
+    font-size: 40px;
+    color: #1DA1F2;
+}
+
+ .fa-facebook{
+    
+    color: #4267B2;
+    font-size: 40px;
+ }
+
+.fa-users{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+a:link , a:visited{
+
+    color: black;
+    outline: 0;
+    text-decoration: none;
+}
